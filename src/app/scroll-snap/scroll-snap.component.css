@@ -1,0 +1,24 @@
+#gallery {
+  scroll-snap-type: x mandatory;
+  overflow-y: scroll;
+  display: grid;
+  grid-template-columns: repeat(4, 100vw);
+}
+
+.image {
+  scroll-snap-align: start;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  text-align: center;
+}
+
+#photo1 {
+  background-image: url(/assets/training/1.jpg);
+}
+#photo2 {
+  background-image: url(/assets/training/2.jpg);
+}
+#photo3 {
+  background-image: url(/assets/training/3.jpg);
+}
